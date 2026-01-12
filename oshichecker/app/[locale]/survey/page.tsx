@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { Suspense } from "react";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/i18n";

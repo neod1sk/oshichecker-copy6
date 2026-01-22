@@ -6,9 +6,11 @@
 export interface Group {
   id: string;
   name: string;
+  nameJa?: string;
   nameKo?: string;
   nameEn?: string;
-  color: string; // テーマカラー（例: "#FF5A5F"）
+  color?: string; // テーマカラー（例: "#FF5A5F"）
+  blogUrl?: string;
 }
 
 export type JpSupportLevel = "ok" | "some" | "unknown" | "no";

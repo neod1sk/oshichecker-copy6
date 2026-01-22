@@ -1,5 +1,6 @@
 "use client";
 
+import type { KeyboardEventHandler } from "react";
 import Image from "next/image";
 import { CandidateMember } from "@/lib/types";
 import { Locale } from "@/i18n.config";
@@ -11,6 +12,7 @@ interface ResultMemberCardProps {
   rank: number;
   locale: Locale;
   groupName?: string;
+  groupBlogUrl?: string;
   hideOverlayName?: boolean;
   size?: "large" | "small" | "mini";
 }
@@ -20,6 +22,7 @@ export default function ResultMemberCard({
   rank,
   locale,
   groupName,
+  groupBlogUrl,
   hideOverlayName = false,
   size = "large",
 }: ResultMemberCardProps) {
@@ -28,6 +31,20 @@ export default function ResultMemberCard({
   const displayName = groupName ? `${name}（${groupName}）` : name;
   const isExternal = isExternalUrl(member.photoUrl);
   const xUrl = member.xUrl;
+  const isClickable = Boolean(groupBlogUrl);
+
+  const handleCardClick = () => {
+    if (!groupBlogUrl) return;
+    window.open(groupBlogUrl, "_blank", "noopener,noreferrer");
+  };
+
+  const handleKeyDown: KeyboardEventHandler<HTMLDivElement> = (e) => {
+    if (!isClickable) return;
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      handleCardClick();
+    }
+  };
 
   // ランクに応じたスタイル
   const rankStyles = {
@@ -59,8 +76,14 @@ export default function ResultMemberCard({
       <div
         className={`
           relative bg-white rounded-2xl overflow-hidden
-          ${style.ring} ${style.shadow}
+          ${style.ring} ${style.shadow} ${
+            isClickable ? "cursor-pointer transition-transform duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(0,0,0,0.15)]" : ""
+          }
         `}
+        role={isClickable ? "button" : undefined}
+        tabIndex={isClickable ? 0 : undefined}
+        onClick={handleCardClick}
+        onKeyDown={handleKeyDown}
       >
         {/* 横並びレイアウト */}
         <div className="flex">
@@ -153,8 +176,14 @@ export default function ResultMemberCard({
       <div
         className={`
           relative bg-white rounded-lg overflow-hidden
-          ring ring-gray-200 shadow
+          ring ring-gray-200 shadow ${
+            isClickable ? "cursor-pointer transition-transform duration-150 hover:-translate-y-0.5 hover:shadow-[0_10px_24px_rgba(0,0,0,0.12)]" : ""
+          }
         `}
+        role={isClickable ? "button" : undefined}
+        tabIndex={isClickable ? 0 : undefined}
+        onClick={handleCardClick}
+        onKeyDown={handleKeyDown}
       >
         <div className="flex h-20">
           <div className="relative w-28 h-20 flex-shrink-0 overflow-hidden">
@@ -237,8 +266,14 @@ export default function ResultMemberCard({
     <div
       className={`
         relative bg-white rounded-xl overflow-hidden
-        ${style.ring} ${style.shadow}
+        ${style.ring} ${style.shadow} ${
+          isClickable ? "cursor-pointer transition-transform duration-150 hover:-translate-y-0.5 hover:shadow-[0_10px_24px_rgba(0,0,0,0.12)]" : ""
+        }
       `}
+      role={isClickable ? "button" : undefined}
+      tabIndex={isClickable ? 0 : undefined}
+      onClick={handleCardClick}
+      onKeyDown={handleKeyDown}
     >
       {/* 画像 */}
       <div className="relative aspect-[4/3] overflow-hidden">

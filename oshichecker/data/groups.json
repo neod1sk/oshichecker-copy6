@@ -4,194 +4,235 @@
     "name": "KOKOIYA",
     "nameKo": "KOKOIYA",
     "nameEn": "KOKOIYA",
-    "color": "#FF6B9D"
+    "color": "#FF6B9D",
+    "blogUrl": "https://note.com/daisuke_001/n/n6073a1e5767d"
   },
   {
     "id": "H7KD",
     "name": "H7KD",
     "nameKo": "H7KD",
     "nameEn": "H7KD",
-    "color": "#7C5CFF"
+    "color": "#7C5CFF",
+    "blogUrl": "https://note.com/daisuke_001/n/ne8e595bdcf80"
   },
   {
     "id": "REIEI",
     "name": "零鋭",
     "nameKo": "레이에이",
     "nameEn": "REIEI",
-    "color": "#14b8a6"
+    "color": "#14b8a6",
+    "blogUrl": "https://note.com/daisuke_001/n/n039f80e4d406"
   },
   {
     "id": "AISYU",
     "name": "AISYU",
     "nameKo": "AISYU",
-    "nameEn": "AISYU"
+    "nameEn": "AISYU",
+    "blogUrl": "https://note.com/daisuke_001/n/n1b2e01972613"
   },
   {
     "id": "AMORE",
     "name": "AMORE",
     "nameKo": "AMORE",
-    "nameEn": "AMORE"
+    "nameEn": "AMORE",
+    "blogUrl": "https://note.com/daisuke_001/n/n2ab926d8ae64"
   },
   {
     "id": "ANiMA",
     "name": "ANiMA",
     "nameKo": "ANiMA",
-    "nameEn": "ANiMA"
+    "nameEn": "ANiMA",
+    "blogUrl": "https://note.com/daisuke_001/n/ndfa4a33813a1"
   },
   {
     "id": "A8Escape",
     "name": "A8Escape",
     "nameKo": "A8Escape",
-    "nameEn": "A8Escape"
+    "nameEn": "A8Escape",
+    "blogUrl": "https://note.com/daisuke_001/n/n6c5a18dad3fe"
   },
   {
     "id": "BETTER",
     "name": "BE++ER!!",
     "nameKo": "BE++ER!!",
-    "nameEn": "BE++ER!!"
+    "nameEn": "BE++ER!!",
+    "blogUrl": "https://note.com/daisuke_001/n/n58d2aa13c0fe"
   },
   {
     "id": "CLITZ",
     "name": "C.LiTZ",
     "nameKo": "C.LiTZ",
-    "nameEn": "C.LiTZ"
+    "nameEn": "C.LiTZ",
+    "blogUrl": "https://note.com/daisuke_001/n/n2cb952a03822"
   },
   {
     "id": "CYBERNETICS",
     "name": "CYBERNETICS",
     "nameKo": "CYBERNETICS",
-    "nameEn": "CYBERNETICS"
+    "nameEn": "CYBERNETICS",
+    "blogUrl": "https://note.com/daisuke_001/n/n6bab1b8e7b1d"
   },
   {
     "id": "EITSUKU",
     "name": "EITSUKU",
     "nameKo": "EITSUKU",
-    "nameEn": "EITSUKU"
-  },
-  {
-    "id": "HAPEEZ",
-    "name": "Hapeez",
-    "nameKo": "Hapeez",
-    "nameEn": "Hapeez"
+    "nameEn": "EITSUKU",
+    "blogUrl": "https://note.com/daisuke_001/n/n8f8fe49ba70c"
   },
   {
     "id": "HINONAKA",
     "name": "Hinonaka",
     "nameKo": "Hinonaka",
-    "nameEn": "Hinonaka"
+    "nameEn": "Hinonaka",
+    "blogUrl": "https://note.com/daisuke_001/n/n2dc5e5569e40"
   },
   {
     "id": "HURUCHU",
     "name": "HURUCHU",
     "nameKo": "HURUCHU",
-    "nameEn": "HURUCHU"
+    "nameEn": "HURUCHU",
+    "blogUrl": "https://note.com/daisuke_001/n/n93539e58a454"
   },
   {
     "id": "JIBAKU",
     "name": "JIBAKU",
     "nameKo": "JIBAKU",
-    "nameEn": "JIBAKU"
+    "nameEn": "JIBAKU",
+    "blogUrl": "https://note.com/daisuke_001/n/nce50f1898495"
   },
   {
     "id": "KAGERERU",
     "name": "KAGERERU",
     "nameKo": "KAGERERU",
-    "nameEn": "KAGERERU"
+    "nameEn": "KAGERERU",
+    "blogUrl": "https://note.com/daisuke_001/n/nb228f4c7b204"
   },
   {
     "id": "LuciDreaM",
     "name": "LuciDreaM",
     "nameKo": "LuciDreaM",
-    "nameEn": "LuciDreaM"
+    "nameEn": "LuciDreaM",
+    "blogUrl": "https://note.com/daisuke_001/n/n5ba26e28c6ba"
   },
   {
     "id": "MEMORIA",
     "name": "MEMORIA",
     "nameKo": "MEMORIA",
-    "nameEn": "MEMORIA"
+    "nameEn": "MEMORIA",
+    "blogUrl": "https://note.com/daisuke_001/n/nf1bef2032b04"
   },
   {
     "id": "Mewro",
     "name": "Mewro",
     "nameKo": "Mewro",
-    "nameEn": "Mewro"
+    "nameEn": "Mewro",
+    "blogUrl": "https://note.com/daisuke_001/n/nfbf263c544ad"
   },
   {
     "id": "monQ",
     "name": "monQ",
     "nameKo": "monQ",
-    "nameEn": "monQ"
+    "nameEn": "monQ",
+    "blogUrl": "https://note.com/daisuke_001/n/n32dd51b97880"
   },
   {
     "id": "NOLIMIT",
     "name": "NO LiMIT",
     "nameKo": "NO LiMIT",
-    "nameEn": "NO LiMIT"
+    "nameEn": "NO LiMIT",
+    "blogUrl": "https://note.com/daisuke_001/n/nb713122229df"
   },
   {
     "id": "ORIKA",
     "name": "ORIKA",
     "nameKo": "ORIKA",
-    "nameEn": "ORIKA"
+    "nameEn": "ORIKA",
+    "blogUrl": "https://note.com/daisuke_001/n/n35087657973d"
   },
   {
     "id": "RESTART",
     "name": "RE: START＋",
     "nameKo": "RE: START＋",
-    "nameEn": "RE: START＋"
+    "nameEn": "RE: START＋",
+    "blogUrl": "https://note.com/daisuke_001/n/n5d8dc2996422"
   },
   {
     "id": "SOLANIN",
     "name": "solanin",
     "nameKo": "solanin",
-    "nameEn": "solanin"
+    "nameEn": "solanin",
+    "blogUrl": "https://note.com/daisuke_001/n/nbb8c03ee948e"
   },
   {
     "id": "SOAROVER",
     "name": "Soar-Over",
     "nameKo": "Soar-Over",
-    "nameEn": "Soar-Over"
+    "nameEn": "Soar-Over",
+    "blogUrl": "https://note.com/daisuke_001/n/n4bcf875cf973"
   },
   {
     "id": "UGOPOUPEE",
     "name": "UgoPoupee",
     "nameKo": "UgoPoupee",
-    "nameEn": "UgoPoupee"
+    "nameEn": "UgoPoupee",
+    "blogUrl": "https://note.com/daisuke_001/n/n3bc91cea1478"
   },
   {
     "id": "WISHLIZ",
     "name": "WishLiz",
     "nameKo": "WishLiz",
-    "nameEn": "WishLiz"
+    "nameEn": "WishLiz",
+    "blogUrl": "https://note.com/daisuke_001/n/n1f4f96d2648d"
   },
   {
     "id": "YOZOPURE",
     "name": "YOZOPURE",
     "nameKo": "YOZOPURE",
-    "nameEn": "YOZOPURE"
+    "nameEn": "YOZOPURE",
+    "blogUrl": "https://note.com/daisuke_001/n/n9702a74d4e71"
   },
   {
     "id": "YUMEKI",
     "name": "YUMEKi",
     "nameKo": "YUMEKi",
-    "nameEn": "YUMEKi"
+    "nameEn": "YUMEKi",
+    "blogUrl": "https://note.com/daisuke_001/n/n9e61847ecff5"
   },
   {
     "id": "SHINENNOYUME",
     "name": "深淵の夢",
     "nameKo": "신엔노유메",
-    "nameEn": "shinennoyume"
+    "nameEn": "shinennoyume",
+    "blogUrl": "https://note.com/daisuke_001/n/n19a4755d4683"
   },
   {
     "id": "ZZZ",
     "name": "絶対全力Z",
     "nameKo": "절대전력Z",
-    "nameEn": "ZZZ"
+    "nameEn": "ZZZ",
+    "blogUrl": "https://note.com/daisuke_001/n/n82199030fbe2"
   },
   {
     "id": "MSYH",
     "name": "妄想遊戯",
     "nameKo": "망상유희",
-    "nameEn": "MSYH"
+    "nameEn": "MSYH",
+    "blogUrl": "https://note.com/daisuke_001/n/n56422bdd7861"
+  },
+  {
+    "id": "KISEO",
+    "name": "KISEO",
+    "nameJa": "KISEO",
+    "nameKo": "KISEO",
+    "nameEn": "KISEO",
+    "blogUrl": "https://note.com/daisuke_001/n/nfc67010344d6"
+  },
+  {
+    "id": "NEKIRU",
+    "name": "NEKIRU",
+    "nameJa": "NEKIRU",
+    "nameKo": "NEKIRU",
+    "nameEn": "NEKIRU",
+    "blogUrl": "https://note.com/daisuke_001/n/n7339733b5c84"
   }
 ]

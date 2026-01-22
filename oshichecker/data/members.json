@@ -1184,94 +1184,6 @@
     }
   },
   {
-    "id": "member-40",
-    "name": "ハチ",
-    "nameKo": "하치",
-    "nameEn": "HACHI",
-    "groupId": "HAPEEZ",
-    "xUrl": "",
-    "photoUrl": "https://assets.st-note.com/img/1761488285-CIzgOuSNLrqZHw2c734V8i5t.jpg?width=1200",
-    "tags": ["dance", "vocal", "stability"],
-    "scores": {
-      "genre_loud": 2,
-      "genre_alt": 1,
-      "face_dog": 2,
-      "cute": 1,
-      "youthful": 1,
-      "dance": 2,
-      "vocal": 2,
-      "stability": 1,
-      "kind": 2,
-      "talk": 2
-    },
-    "jpSupport": "unknown",
-    "covers": {
-      "artist_nekopla_pixx": 1,
-      "artist_planck_stars": 1,
-      "artist_jiemei": 1,
-      "artist_tenrin": 1,
-      "artist_silent_noise": 1
-    }
-  },
-  {
-    "id": "member-41",
-    "name": "夢",
-    "nameKo": "유메",
-    "nameEn": "YUME",
-    "groupId": "HAPEEZ",
-    "xUrl": "",
-    "photoUrl": "https://assets.st-note.com/img/1761488306-ZYz2P9KuvdHRUTOjq4BfaJ5D.jpg?width=1200",
-    "tags": ["cute", "unique", "energy"],
-    "scores": {
-      "genre_loud": 2,
-      "genre_alt": 1,
-      "face_cat": 1,
-      "unique": 1,
-      "cute": 1,
-      "energy": 1,
-      "kind": 2,
-      "talk": 2,
-      "dance": 1
-    },
-    "jpSupport": "unknown",
-    "covers": {
-      "artist_nekopla_pixx": 1,
-      "artist_planck_stars": 1,
-      "artist_jiemei": 1,
-      "artist_tenrin": 1,
-      "artist_silent_noise": 1
-    }
-  },
-  {
-    "id": "member-42",
-    "name": "イゴ",
-    "nameKo": "이고",
-    "nameEn": "IGO",
-    "groupId": "HAPEEZ",
-    "xUrl": "",
-    "photoUrl": "https://assets.st-note.com/img/1761488322-w3myXjR9Be24oZ1Cu0fJ6xdq.jpg?width=1200",
-    "tags": ["cute", "expression", "energy"],
-    "scores": {
-      "genre_loud": 2,
-      "genre_alt": 1,
-      "face_fox": 1,
-      "mysterious": 2,
-      "cute": 1,
-      "expression": 1,
-      "energy": 2,
-      "kind": 2,
-      "talk": 2
-    },
-    "jpSupport": "unknown",
-    "covers": {
-      "artist_nekopla_pixx": 1,
-      "artist_planck_stars": 1,
-      "artist_jiemei": 1,
-      "artist_tenrin": 1,
-      "artist_silent_noise": 1
-    }
-  },
-  {
     "id": "member-43",
     "name": "える",
     "nameKo": "에루",
@@ -3366,6 +3278,122 @@
       "artist_avam": 1,
       "artist_mad_medicine": 1,
       "artist_mazari": 1
+    }
+  },
+  {
+    "id": "member-115",
+    "name": "アム",
+    "nameKo": "아무",
+    "nameEn": "AMU",
+    "groupId": "KISEO",
+    "xUrl": "https://x.com/KISEO_AMU/media",
+    "photoUrl": "https://assets.st-note.com/img/1769072171-wiEMga1soRN254yTvUXADYhO.jpg?width=1200",
+    "tags": ["idol_polished", "expression", "face_rabbit"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_rabbit": 2,
+      "idol_polished": 2,
+      "pure": 2,
+      "expression": 3,
+      "stability": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_ringwanderung": 1,
+      "artist_aibeck": 2,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-116",
+    "name": "ネギ",
+    "nameKo": "네기",
+    "nameEn": "NEGI",
+    "groupId": "KISEO",
+    "xUrl": "https://x.com/KISEO_NEGI",
+    "photoUrl": "https://assets.st-note.com/img/1769072227-NmW71P0SEiwOq5zkoXZjTUAR.jpg?width=1200",
+    "tags": ["dance", "expression", "energy"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_fox": 1,
+      "cool": 1,
+      "elegant": 1,
+      "dance": 3,
+      "expression": 3,
+      "energy": 3,
+      "kind": 2,
+      "calm": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_ringwanderung": 1,
+      "artist_aibeck": 2,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-117",
+    "name": "ZERO",
+    "nameKo": "제로",
+    "nameEn": "ZERO",
+    "groupId": "KISEO",
+    "xUrl": "https://x.com/KISEO_ZERO",
+    "photoUrl": "https://assets.st-note.com/img/1769072242-fWGbn7cXNzZs1ygHjAvmtweq.jpg?width=1200",
+    "tags": ["vocal", "facial", "elegant"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_dog": 2,
+      "elegant": 2,
+      "pure": 1,
+      "dance": 2,
+      "vocal": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_ringwanderung": 1,
+      "artist_aibeck": 2,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-118",
+    "name": "ナラ",
+    "nameKo": "나라",
+    "nameEn": "NARA",
+    "groupId": "KISEO",
+    "xUrl": "https://x.com/KISEO_NARA",
+    "photoUrl": "https://assets.st-note.com/img/1769072254-WQHsNyJiwqEFkbZCv8gBUpx6.jpg?width=1200",
+    "tags": ["pure", "healing", "stability"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_raccoon_dog": 2,
+      "pure": 2,
+      "healing": 2,
+      "idol_polished": 2,
+      "stability": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_ringwanderung": 1,
+      "artist_aibeck": 2,
+      "artist_bish": 1
     }
   }
 ]

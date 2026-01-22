@@ -38,16 +38,14 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
       ? "Images are quoted from idols' tweets"
       : "画像はアイドルのツイートから引用しています";
 
-  const footerText =
-    locale === "ko"
-      ? "© 2026 오시체커"
-      : locale === "en"
-      ? "© 2026 Oshi Checker"
-      : "© 2026 推しチェッカー";
-
   const getGroupName = (groupId: string): string => {
     const group = groups.find((g) => g.id === groupId);
     return group ? getLocalizedName(group, locale) : "";
+  };
+
+  const getGroupBlogUrl = (groupId: string): string => {
+    const group = groups.find((g) => g.id === groupId);
+    return group?.blogUrl || "";
   };
 
   // 結果がない場合のリダイレクト
@@ -118,7 +116,8 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                 candidate={first}
                 rank={1}
                 locale={locale}
-            groupName={getGroupName(first.member.groupId)}
+                groupName={getGroupName(first.member.groupId)}
+                groupBlogUrl={getGroupBlogUrl(first.member.groupId)}
                 size="large"
               />
             </div>
@@ -139,6 +138,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                   rank={2}
                   locale={locale}
                 groupName={getGroupName(second.member.groupId)}
+                groupBlogUrl={getGroupBlogUrl(second.member.groupId)}
                   size="small"
                 />
               </div>
@@ -156,6 +156,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                   rank={3}
                   locale={locale}
                 groupName={getGroupName(third.member.groupId)}
+                groupBlogUrl={getGroupBlogUrl(third.member.groupId)}
                   size="small"
                 />
               </div>
@@ -218,6 +219,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                 rank={idx + 4}
                 locale={locale}
                 groupName={getGroupName(candidate.member.groupId)}
+                groupBlogUrl={getGroupBlogUrl(candidate.member.groupId)}
                 hideOverlayName
                 size="mini"
               />
@@ -226,10 +228,6 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
         </div>
       )}
 
-      {/* フッター */}
-      <p className="mt-4 text-gray-400 text-xs">
-        {footerText}
-      </p>
     </div>
   );
 }

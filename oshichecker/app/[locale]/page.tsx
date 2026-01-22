@@ -51,11 +51,6 @@ export default async function HomePage({ params }: HomePageProps) {
 
       {/* スタートボタン（クリック時にリセット） */}
       <StartButton locale={locale} label={t.startButton} />
-
-      {/* フッター */}
-      <p className="mt-16 text-gray-400 text-xs">
-        {t.footer}
-      </p>
     </div>
   );
 }
